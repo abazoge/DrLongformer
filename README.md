@@ -4,9 +4,9 @@
 
 ### Model pre-training
 We explored multiple strategies for the adaptation of Longformer models to the French medical domain:
-- Further pretraining. 
-- Converting a medical BERT model to the Longformer architecture.
-- Pretraining from scratch.
+- Further pretraining of English clinical Longformer on French medical data. 
+- Converting a French medical BERT model to the Longformer architecture.
+- Pretraining a Longformer from scratch on French medical data.
 
 All Pretraining scripts to reproduce the experiments are available in this repository.
 For the `from scratch` and `further pretraining strategies`, the training scripts are the same as [DrBERT](https://github.com/qanastek/DrBERT), only the bash scripts are different and available in this repository.
