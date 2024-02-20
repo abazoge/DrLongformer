@@ -124,8 +124,8 @@ training_args, model_args = parser.parse_args_into_dataclasses(look_for_args_fil
 	'--report_to', 'tensorboard',
 ])
 
-bert_name = '../../Ressources_NLP/Models/BERT/DrBERT_512_7GB_77740'
-longformer_name = '../../Ressources_NLP/Models/Longformer/longformer-base-4096'
+bert_name = 'Dr-BERT/DrBERT-7GB'
+longformer_name = 'allenai/longformer-base-4096'
 
 model_path = f'DrBERT-test-{model_args.max_pos}'
 if not os.path.exists(model_path):
