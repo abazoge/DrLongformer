@@ -9,7 +9,7 @@ We explored multiple strategies for the adaptation of Longformer models to the F
 - Pretraining a Longformer from scratch on French medical data.
 
 All Pretraining scripts to reproduce the experiments are available in this repository.
-For the `from scratch` and `further pretraining strategies`, the training scripts are the same as [DrBERT](https://github.com/qanastek/DrBERT), only the bash scripts are different and available in this repository.
+For the `from scratch` and `further pretraining` strategies, the training scripts are the same as [DrBERT](https://github.com/qanastek/DrBERT), only the bash scripts are different and available in this repository.
 
 All models were trained on the [Jean Zay](http://www.idris.fr/jean-zay/) French HPC.
 
