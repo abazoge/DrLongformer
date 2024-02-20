@@ -22,7 +22,7 @@ All models were trained on the [Jean Zay](http://www.idris.fr/jean-zay/) French 
 
 ### Model Usage
 You can use DrLongformer directly from [Hugging Face's Transformers](https://github.com/huggingface/transformers):
-```
+```python
 # !pip install transformers
 from transformers import AutoTokenizer, AutoModelForMaskedLM
 tokenizer = AutoTokenizer.from_pretrained("abazoge/DrLongformer")
