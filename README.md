@@ -15,7 +15,7 @@ All models were trained on the [Jean Zay](http://www.idris.fr/jean-zay/) French 
 
 | Model name | Corpus | Pretraining strategy | Sequence Length | Model URL |
 | :------:       | :---: |  :---: | :---: | :---: |
-| `DrLongformer` | NACHOS 7 GB  | Further pretraining of Clinical-Longformer | 4096 | [HuggingFace](https://huggingface.co/abazoge/DrLongformer) |
+| `DrLongformer` | NACHOS 7 GB  | Further pretraining of [Clinical-Longformer](https://huggingface.co/yikuan8/Clinical-Longformer) | 4096 | [HuggingFace](https://huggingface.co/abazoge/DrLongformer) |
 | `DrBERT-4096` | NACHOS 7 GB  | Conversion of [DrBERT-7B](https://huggingface.co/Dr-BERT/DrBERT-7GB) to the Longformer architecture | 4096 | [HuggingFace](https://huggingface.co/abazoge/DrBERT-4096) |
 | `DrLongformer-FS (from scratch)` | NACHOS 7 GB  | Pretraining from scratch | 4096 | Not available |
 
