@@ -31,5 +31,12 @@ model = AutoModelForMaskedLM.from_pretrained("abazoge/DrLongformer")
 
 ### Citation
 ```
-
+@misc{bazoge2024adaptation,
+      title={Adaptation of Biomedical and Clinical Pretrained Models to French Long Documents: A Comparative Study}, 
+      author={Adrien Bazoge and Emmanuel Morin and Beatrice Daille and Pierre-Antoine Gourraud},
+      year={2024},
+      eprint={2402.16689},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
 ```
